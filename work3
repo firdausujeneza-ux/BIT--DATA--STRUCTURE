@@ -1,0 +1,44 @@
+#UR pushes exercise
+print("UR PUSH")
+stack=["Exercise1","Exercise2","Exercise3"]
+stack.pop()
+stack.pop()
+print("Top after undo 2:", stack[-1])
+#IREMBO pushes steps
+print("IREMBO PUSH")
+stack=["StepA","stepB","stepC"]
+stack.pop()
+print("Remaining stack:",stack)
+#CHALLENGE
+print("CHALLENGE PUSHES")
+stack=["A","B","C","D"]
+stack.pop()
+stack.pop()
+stack.pop()
+print("Remaining stack:",stack)
+#REFLECTION
+print("stack undoes the last edit first because it's LIFO")
+# CHUKQUEUE QUESTIONS
+chukqueue=[]
+chukqueue.append("patient 1");
+chukqueue.append("patient 2");
+chukqueue.append("patient 3");
+chukqueue.append("patient 4");
+chukqueue.append("patient 5");
+chukqueue.append("patient 6");
+chukqueue.append("patient 7");
+chukqueue.append("patient 8");
+chukqueue.append("patient 9");
+print("The CHUK Patients are",chukqueue);
+chukqueue.pop(0)
+chukqueue.pop(0)
+chukqueue.pop(0)
+chukqueue.pop(0)
+print("The Patient in the front is",chukqueue[0])
+Airtelqueue=[];
+Airtelqueue.append("client 1")
+Airtelqueue.append("client 2");
+Airtelqueue.append("client 3");
+Airtelqueue.append("client 4");
+Airtelqueue.append("client 5");
+print("The third client is",Airtelqueue[2]);
